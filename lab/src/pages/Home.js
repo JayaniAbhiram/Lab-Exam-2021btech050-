@@ -4,10 +4,10 @@ import './Home.css';
 const Home = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
-        { id: 1, src: 'https://via.placeholder.com/300.png?text=Image+1', alt: 'Image 1' },
-        { id: 2, src: 'https://via.placeholder.com/300.png?text=Image+2', alt: 'Image 2' },
-        { id: 3, src: 'https://via.placeholder.com/300.png?text=Image+3', alt: 'Image 3' },
-        { id: 4, src: 'https://via.placeholder.com/300.png?text=Image+4', alt: 'Image 4' },
+        { id: 1, src: '', alt: 'Image 1' },
+        { id: 2, src: '', alt: 'Image 2' },
+        { id: 3, src: '', alt: 'Image 3' },
+        { id: 4, src: '', alt: 'Image 4' },
     ];
 
     const nextSlide = () => {
